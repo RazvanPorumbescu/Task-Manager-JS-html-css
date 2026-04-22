@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Task Manager</h1>
+
+  <div class="controls">
+    <input type="text" id="taskInput" placeholder="Adaugă task...">
+    <input type="time" id="taskTime">
+    <button onclick="addTask()">Adaugă</button>
+    <button onclick="toggleDarkMode()">🌙</button>
+  </div>
+
+  <div class="filters">
+    <button onclick="setFilter('all')">Toate</button>
+    <button onclick="setFilter('active')">Active</button>
+    <button onclick="setFilter('completed')">Completate</button>
+  </div>
+
+  <p id="stats"></p>
+
+  <ul id="taskList"></ul>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html> 

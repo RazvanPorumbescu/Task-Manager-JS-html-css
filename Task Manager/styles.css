@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  transition: 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+body.dark li {
+  border: 1px solid #555;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  margin: 5px;
+}
